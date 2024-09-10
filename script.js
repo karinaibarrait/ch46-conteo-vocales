@@ -24,11 +24,28 @@ function encontrarNumeroDeLetra( letra, nombre ) {
     return inputNombre.value;
  }
 
+
  function manejoDelEventoDeInputNombre(){
-    const nombre = leerValorDeNombre().toLowerCase();
-    const numLetraA = encontrarNumeroDeLetra ("a", nombre);
-    imprimirResultado(nombre + " tiene: " + numLetraA + " letras A");
- }
+    const nombre = leerValorDeNombre().toUpperCase();
+
+    // contar vocales
+    const numLetraA = encontrarNumeroDeLetra ("A", nombre);
+    const numLetraE = encontrarNumeroDeLetra ("E", nombre);
+    const numLetraI = encontrarNumeroDeLetra ("I", nombre);
+    const numLetraO = encontrarNumeroDeLetra ("O", nombre);
+    const numLetraU = encontrarNumeroDeLetra ("U", nombre);
+
+    // Concatenar todos los resultados en un solo string
+    let resultado = nombre + " tiene: <br>";
+    resultado += numLetraA + " letras A<br>";
+    resultado += numLetraE + " letras E<br>";
+    resultado += numLetraI + " letras I<br>";
+    resultado += numLetraO + " letras O<br>";
+    resultado += numLetraU + " letras U<br>";
+
+    // Imprimir el resultado final
+    imprimirResultado(resultado);
+}
 
  function imprimirResultado( resultado ){
     const paragraph = document.getElementById("vocales");
