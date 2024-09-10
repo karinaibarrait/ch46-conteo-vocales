@@ -27,7 +27,10 @@ function encontrarNumeroDeLetra( letra, nombre ) {
  function manejoDelEventoDeInputNombre(){
     const nombre = leerValorDeNombre().toLowerCase();
     const numLetraA = encontrarNumeroDeLetra ("a", nombre);
-    console.log(nombre + " tiene: " + numLetraA + " letras A");
+    imprimirResultado(nombre + " tiene: " + numLetraA + " letras A");
  }
 
+ function imprimirResultado( resultado ){
+    console.log( resultado );
+}
 
