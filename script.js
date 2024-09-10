@@ -19,10 +19,13 @@ function encontrarNumeroDeLetra( letra, nombre ) {
     return numeroDeLetras;
 }
 
-function manejoDelEventoDeInputNombre(){
-    console.log("Me estoy invocando");
+ function leerValorDeNombre(){
+    const inputNombre = document.getElementById("nombre");
+    return inputNombre.value;
+ }
+
+ function manejoDelEventoDeInputNombre(){
+    const nombre = leerValorDeNombre();
+    console.log(nombre);
  }
  
-
-
-
