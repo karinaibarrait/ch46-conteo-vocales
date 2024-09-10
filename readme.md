@@ -1,6 +1,33 @@
-Este fin de semana fue muy divertido.
-El día sabado fui a una cata de café donde me enseñaron sobre los principales métodos de extracción.
-Aprendí a preparar café por el método chemex, aeropress, v60, prensa francesa, cold brew y espresso.
-La parte no tan  divertida fue que más tarde fui con el gastroenterologo y me prohibio tomar café.
-El domingo vi un par de episodios de una serie en netflix y cene antojitos mexicanos.
-El dia de hoy planeo ir al super en la noche, a comprar comida y botana para la semana.
+
+# Aplicación Web: Conteo de Vocales
+
+Esta es una **aplicación web sencilla** desarrollada en **HTML**, **CSS** y **JavaScript** que tiene como objetivo contar cuántas veces aparecen las vocales (`a, e, i, o, u`) en el nombre o texto que el usuario ingresa. El resultado se actualiza automáticamente a medida que se escribe el nombre.
+
+## Características
+
+- La aplicación permite ingresar un nombre o cualquier texto.
+- Cuenta cuántas veces aparece cada vocal (`a, e, i, o, u`) en el texto ingresado.
+- Los resultados se muestran en tiempo real mientras el usuario escribe.
+
+## Ejemplo
+
+Si el usuario ingresa el texto `Karina Ibarra`, el resultado será:
+
+```
+KARINA IBARRA tiene:
+4 letras A
+0 letras E
+1 letras I
+0 letras O
+0 letras U
+```
+
+## Tecnologías Utilizadas
+
+- **HTML**: Estructura de la página.
+- **CSS**: Estilos básicos.
+- **JavaScript**: Lógica de conteo de vocales.
+
+---
+
+¡Gracias por revisar este proyecto! Si tienes alguna sugerencia o mejora, no dudes en contactarme.
