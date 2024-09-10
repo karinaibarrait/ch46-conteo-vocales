@@ -28,6 +28,10 @@ KARINA IBARRA tiene:
 - **CSS**: Estilos básicos.
 - **JavaScript**: Lógica de conteo de vocales.
 
+## Enlace a la aplicación
+
+Puedes probar la aplicación directamente [aquí](https://karinaibarrait.github.io/ch46-conteo-vocales/).
+
 ---
 
 ¡Gracias por revisar este proyecto! Si tienes alguna sugerencia o mejora, no dudes en contactarme.
